@@ -151,7 +151,6 @@ section{
     color:var(--main-color);
 }
 
-
 .header .cart-items-container{
     position: absolute;
     top:100%; right: -100%;
@@ -160,9 +159,11 @@ section{
     background: #fff;
     padding:0 1.5rem;
 }
+
 .header .cart-items-container.active{
     right: 0;
 }
+
 .header .cart-items-container .cart-item{
     position: relative;
     margin:2rem 0;
@@ -170,6 +171,7 @@ section{
     align-items: center;
     gap:1.5rem;
 }
+
 .header .cart-items-container .cart-item .fa-times{
     position: absolute;
     top:1rem; right: 1rem;
@@ -197,5 +199,7 @@ section{
     color:var(--main-color);
 }
 
-
-
+.header .cart-items-container .btn{
+    width: 100%;
+    text-align: center;
+}
