@@ -231,6 +231,10 @@ section{
         height: calc(100vh - 9.5rem);
     }
 
+    .header .navbar.active{
+        right: 0;
+    }
+
     .header .navbar a{
        color: var(--black);
        display: block;
@@ -242,17 +246,13 @@ section{
     .header .search-form{
         width: 90%;
         right: 2rem;
-    }    
+    } 
 
 }
 
 @media (max-width:450px){
 
     html{
-        font-size: 55%;       
-    }
-
-    .header{
-        padding: 1.5rem 2rem;
-    }
+        font-size: 50%;       
+    }    
 }
