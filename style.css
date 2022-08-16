@@ -204,6 +204,35 @@ section{
     text-align: center;
 }
 
+/* Inicio Home */
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(./img/home-img.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 60rem;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.home .content p{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #eee;
+}
+
 /* Media queries */
 
 @media (max-width:991px){
@@ -214,6 +243,10 @@ section{
 
     .header{
         padding: 1.5rem 2rem;
+    }
+
+    .section{
+        padding: 2rem;
     }
 }
 
